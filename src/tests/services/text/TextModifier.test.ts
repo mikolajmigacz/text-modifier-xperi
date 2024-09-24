@@ -1,8 +1,7 @@
 import fs from "fs/promises";
-import { TextModifier } from "../../services/TextModifier";
-import { ITextModificationStrategy } from "../../interfaces";
+import { TextModifier } from "../../../services";
+import { ITextModificationStrategy } from "../../../interfaces";
 
-// Mock the fs module
 jest.mock("fs/promises");
 
 describe("TextModifier", () => {

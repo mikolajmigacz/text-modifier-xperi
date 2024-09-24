@@ -1,11 +1,11 @@
 import fs from "fs/promises";
 import path from "path";
-import { ITextModificationStrategy } from "../interfaces";
+import { ITextModificationStrategy } from "../../interfaces";
 import {
   FileReadError,
   FileWriteError,
   StrategyExecutionError,
-} from "../errors";
+} from "../../errors";
 
 export class TextModifier {
   private strategies: ITextModificationStrategy[];

@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-import { TextModifier } from "../services/TextModifier";
+import { TextModifier } from "../services/text/TextModifier";
 import {
   FileReadError,
   FileWriteError,

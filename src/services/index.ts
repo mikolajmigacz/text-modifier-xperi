@@ -1,1 +1,1 @@
-export * from "./TextModifier";
+export * from "./text";
