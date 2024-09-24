@@ -1,0 +1,2 @@
+Another file with different content.
+This will be modified by various strategies.
